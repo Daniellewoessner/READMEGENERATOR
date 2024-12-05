@@ -64,10 +64,15 @@ inquirer
     type:"input",
     name:"refrences",
     message:"Provide a list of refrences or sources used",
+},
+{
+    type:"input",
+    name:"demo",
+    message:"Please provide a link for your demonstration"
 }
 ]).then((answers) => {
    const markdownContent = generateMarkdown(answers);
-   writeToFile('./DEMO/README.md', markdownContent); 
+   writeToFile('README.md', markdownContent); 
    console.log('Creating README.md file...'); // Updated variable name
 })
 .catch((error) => {
