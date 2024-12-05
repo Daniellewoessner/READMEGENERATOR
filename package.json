@@ -1,0 +1,26 @@
+{
+    "name": "inquirer",
+    "version": "1.0.0",
+    "description": "",
+    "main":"index.js",
+    "type":"module",
+    
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"No tests specified\" && exit 0"
+      
+    },
+    "keywords": [
+      "README",
+      "generator",
+      "node",
+      "inquirer"
+    ],
+    "author": "Daniellewoessner",
+    "license": "MIT",
+    "dependencies": {
+      "inquirer": "^12.1.0"
+    
+    },
+    "devDependencies": {}
+  }
