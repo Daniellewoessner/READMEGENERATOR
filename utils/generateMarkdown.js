@@ -40,19 +40,22 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
+  -[Name](#name)
   -[Description](#Description)
+  -[Contacts](#contacts)
   -[Requirements](#Requirements)
   -[Installation](#installation)
   -[Usage](#usage)
   -[Contributing](#contributing)
   -[Demo](#demo)
   -[License](#license)
+  -[Source](#source)
 
   ## Requirements
   ${data.requirements}
 
-  ## Installations
-  ${data.installation}
+  ## Installation
+  ${data.Installation}
 
   ## Usage
   ${data.usage}
@@ -66,6 +69,14 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
 
+  ## Source
+  ${data.source}
+
+  ## Name
+  ${data.Name}
+
+  ## Contacts
+  ${data.contacts}
   ## Questions
   If you have any questions, please contact me at 
   `;
