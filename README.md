@@ -14,7 +14,7 @@
   * [License](#license)
 
   ## Requirements
-  [![Inquirer package](https://www.npmjs.com/package/inquirer)]
+[**Inquirer Package**](https://www.npmjs.com/package/inquirer)
 
   ## Installation
   undefined
