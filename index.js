@@ -67,7 +67,7 @@ inquirer
 }
 ]).then((answers) => {
    const markdownContent = generateMarkdown(answers);
-   writeToFile('./sample/README.md', markdownContent); 
+   writeToFile('./DEMO/README.md', markdownContent); 
    console.log('Creating README.md file...'); // Updated variable name
 })
 .catch((error) => {
@@ -86,7 +86,7 @@ function writeToFile(README,data) {
 }
 
 
-// Initialize App
+// Initialize read me file
 
 function init(README, data) {
     console.log("README file is being created....");
