@@ -36,6 +36,9 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
 
+   ## Name
+  ${data.name}
+
   ## Description
   ${data.description}
 
@@ -72,11 +75,12 @@ function generateMarkdown(data) {
   ## Source
   ${data.source}
 
-  ## Name
-  ${data.Name}
 
   ## Contacts
-  ${data.contacts}
+  GitHub: [${data.github}](https://github.com/${data.github})  
+  Email: [${data.email}](mailto:${data.email})
+
+
   ## Questions
   If you have any questions, please contact me at 
   `;
