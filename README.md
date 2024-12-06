@@ -27,6 +27,7 @@ To download the source code from a GitHub repository first navigate to the main 
   * Github.com
   * Xpert learning assistant
   * Thais Caliet
+  * https://www.npmjs.com/package/inquirer
 
   ## Demo
   [**Demo**](https://drive.google.com/file/d/1HyjM5QjWLaLUBoxBcjLx4z7udMBbvH9p/view)
