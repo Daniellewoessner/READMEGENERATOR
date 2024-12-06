@@ -35,5 +35,5 @@ To download the source code from a GitHub repository first navigate to the main 
   Mit
 
   ## Questions
-  If you have any questions, please contact me at 
+  If you have any questions, please contact me at dlegare7792@gmail,com or Daniellewoessner on Github
   
