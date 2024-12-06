@@ -24,8 +24,13 @@ inquirer
  },
  {
     type:"input",
-    name:"creator",
-    message:"Provide your Git Username, First and Last name",
+    name:"github",
+    message:"Provide your Git Username",
+ },
+ {
+    type:"input",
+    name:"name",
+    message:"What is your name?"
  },
 {
     type:"input",
@@ -55,14 +60,14 @@ inquirer
 },
 {
     type:"input",
-    name:"licence",
+    name:"license",
     message:"Select an appropriate license for your project",
     
 
 },
 {
     type:"input",
-    name:"refrences",
+    name:"source",
     message:"Provide a list of refrences or sources used",
 },
 {
@@ -72,7 +77,7 @@ inquirer
 }
 ]).then((answers) => {
    const markdownContent = generateMarkdown(answers);
-   writeToFile('README.md', markdownContent); 
+   writeToFile('./DEMO/README.md', markdownContent); 
    console.log('Creating README.md file...'); // Updated variable name
 })
 .catch((error) => {
@@ -95,7 +100,7 @@ function writeToFile(README,data) {
 
 function init(README, data) {
     console.log("README file is being created....");
-    writeToFile('README.md', generateMarkdown({data}));
+    writeToFile('./DEMO/README.md', generateMarkdown({data}));
 }
 
 // Function call to initialize app
