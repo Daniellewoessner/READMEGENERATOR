@@ -41,6 +41,8 @@
     * Github.com  
     * Xpert learning assistant  
     * Thais Caliet
+    https://www.npmjs.com/package/inquirer
+
 
 
   ## Contacts
